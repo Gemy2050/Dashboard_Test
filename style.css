@@ -201,6 +201,12 @@ section.content header {
   gap: 15px;
 }
 
+@media (max-width: 600px) {
+  section.content header {
+    justify-content: center;
+  }
+}
+
 section header :is(.left, .right) {
   display: flex;
   align-items: center;
