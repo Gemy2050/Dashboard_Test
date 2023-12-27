@@ -118,6 +118,7 @@ input:checked+.slider:before {
 
 body {
   font-family: system-ui;
+  overflow-x: hidden;
 }
 
 main {
@@ -307,6 +308,12 @@ section .box .chart canvas {
   max-width: 100% !important;
 }
 
+@media (max-width: 475px) {
+  section .box .chart canvas {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
 
 .circle-container {
   width: 60px;
